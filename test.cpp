@@ -9,7 +9,7 @@ void compositionExample();
 int main () {
 	// This function shows when there is an issue from a class inheriting multiple classes -
 	// creating 2 base class subojects, and not knowing which base class subobject to choose. 
-	// Subobject = a derived class of the base class. 
+	// Subobject = an instance of the base class object inside of the derived class
 	diamondProblem(); 	
 
 	// This next part of the code will avoid the diamond problem as seen above. 
